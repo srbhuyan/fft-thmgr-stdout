@@ -163,6 +163,8 @@ int main(int argc, char * argv[]) {
     int image_size = size;
     Complex2D* test_image = create_complex_2d(image_size, image_size);
 
+    printf("Image size: %d\n", image_size);
+
     // Generate test image (pattern)
     for(int i = 0; i < image_size; i++) {
         for(int j = 0; j < image_size; j++) {
